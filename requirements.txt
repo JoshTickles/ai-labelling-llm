@@ -1,0 +1,6 @@
+transformers
+huggingface-hub
+torch
+torchvision 
+torchaudio
+flask
