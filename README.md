@@ -30,14 +30,14 @@ Install the Python packages from `requirements.txt`
 pip3 install -r requirements.txt
 ```
 
-Download the model - Not you may need git-lfs for unpacking the files. 
+Download the model - Note, you may need git-lfs for unpacking the files. 
 ```
-git clone https://huggingface.co/facebook/bart-large-mnli ./models/bart-large-mnli
+git clone https://huggingface.co/facebook/bart-large-mnli ./model/bart-large-mnli
 ```
 
 In each script, add your variables as required. You basically just need to set the device, and model location. 
 
-Run the app, or the api version o the app.
+Run the app, or the api version of the app.
 ```
 python3 ./app-api.py
 ```
