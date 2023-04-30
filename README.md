@@ -5,13 +5,13 @@ You can use either your GPU, or your CPU. Right now I've only got Nvidia devices
 The model is more accurate on some topics than others. I still need to test more models, but for now this one works pretty well, and keeps the size down. 
 
 ##### Tested options for your LLMs
-> bart-large-mnli
-- does not supports truncation, max_length
+- bart-large-mnli
+  - does not supports truncation, max_length
 
 ##### devices
-> device=1, # to utilize GPU cuda:1
-> device=0, # to utilize GPU cuda:0
-> device=-1) # default value to utilize CPU
+- device=1, # to utilize GPU cuda:1
+- device=0, # to utilize GPU cuda:0
+- device=-1 # default value to utilize CPU
 
 ## Setup 
 
